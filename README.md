@@ -13,10 +13,9 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
 <h2>Algorithms that have been covered:</h2>
   <li>Insetion sort (C)</li>
   <li>Merge Sort (C, C++)</li>
-  <li>Quick Sort (C)</li>
+  <li>Quick Sort (C,C++)</li>
   <li>Radix Sort (C, C++)</li>
-  <li>Selection Sort (C)</li>
+  <li>Selection Sort (C,C++)</li>
   <li>Shell Sort (C)</li>
-
   <li>Bubble Sort (C++)</li>
   <li>Swap Alternate (C++)</li>
