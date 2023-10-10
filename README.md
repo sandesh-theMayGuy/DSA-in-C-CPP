@@ -1,7 +1,8 @@
 # DSA-in-C-C-
 Some important data structures and algorithms implemented in C/C++ programming languages. <br>
 Take a look at CONTRIBUTING.md for guide to making contributions <br>
-<i>Please avoid duplicacy, don't add stuffs that have already been covered.</i>
+
+<strong><i>Please avoid duplicacy, don't add stuffs that have already been covered.</i></strong>
 
 <h2>Data Structures that have been covered:</h2>
   <li>Stack</li>
