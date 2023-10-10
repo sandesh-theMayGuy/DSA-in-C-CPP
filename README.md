@@ -5,7 +5,6 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
 <strong><i>Please avoid duplicacy, don't add stuffs that have already been covered.</i></strong>
 
 <h2>Data Structures that have been covered:</h2>
-  <li></li>
   <li>Stack</li>
   <li>Simple Queue</li>
   <li>Singly Linked List</li>
