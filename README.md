@@ -7,7 +7,6 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
 
 <h2>Data Structures that have been covered:</h2>
   <li>Stack (C)</li>
-  <li>Stack (C)</li>
   <li>Simple Queue (C)</li>
   <li>Singly Linked List(C)</li>
 
