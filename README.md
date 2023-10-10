@@ -5,6 +5,7 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
 <strong><i>Please avoid duplicacy, don't add stuffs that have already been covered.</i></strong>
 
 <h2>Data Structures that have been covered:</h2>
+  <li></li>
   <li>Stack</li>
   <li>Simple Queue</li>
   <li>Singly Linked List</li>
@@ -12,6 +13,9 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
 
 
 <h2>Algorithms that have been covered:</h2>
+<li>Radix Sort</li>
+<li>Quick Sort</li>
+<li>Insertion Sort</li>
 <li>Shell Sort</li>
 <li>Bubble Sort</li>
 <li>Merge Sort</li>
