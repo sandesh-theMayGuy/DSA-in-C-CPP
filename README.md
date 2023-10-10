@@ -5,14 +5,20 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
 <strong><i>Please avoid duplicacy, don't add stuffs that have already been covered.</i></strong>
 
 <h2>Data Structures that have been covered:</h2>
-  <li>Stack</li>
-  <li>Simple Queue</li>
-  <li>Singly Linked List</li>
-
+  <li>Stack(C)</li>
+  <li>Simple Queue(C)</li>
+  <li>Singly Linked List(C)</li>
+  <li>Queue(C)</li>
+  <li>Array(C)</li>
+  <li>Sorting(C&C++)</li>
 
 
 <h2>Algorithms that have been covered:</h2>
-<li>Shell Sort</li>
-<li>Bubble Sort</li>
-<li>Merge Sort</li>
-<li>Selection Sort</li>
+<li>Shell Sort(C)</li>
+<li>Bubble Sort(C&C++)</li>
+<li>Merge Sort(C)</li>
+<li>Selection Sort(C)</li>
+<li>Insertion Sort(C)</li>
+<li>Quick Sort(C)</li>
+<li>Radix Sort(C&C++)</li>
+<li>Swap_alternate(C++)</li>
