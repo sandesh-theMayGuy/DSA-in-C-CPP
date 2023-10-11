@@ -26,8 +26,9 @@ void mergeSort(int arr[], int n) {
     }
 
     int mid = n / 2;
-    int left[mid];
-    int right[n - mid];
+   int *left = malloc(mid * sizeof(int));
+   int *right = malloc((n - mid) * sizeof(int));
+
 
     for (int i = 0; i < mid; i++) {
         left[i] = arr[i];
@@ -41,6 +42,8 @@ void mergeSort(int arr[], int n) {
     mergeSort(right, n - mid);
 
     merge(arr, left, mid, right, n - mid);
+    free(left);
+    free(right);
 }
 
 int main() {
@@ -49,7 +52,7 @@ int main() {
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    int arr[n];
+    int *arr = (int *)malloc(n * sizeof(int));
 
     printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++) {
@@ -67,6 +70,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
-
+   free(arr);
     return 0;
 }
