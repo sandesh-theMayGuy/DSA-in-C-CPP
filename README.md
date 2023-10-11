@@ -22,6 +22,6 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
   <li>Swap Alternate (C++)</li>
   <li>Doubly Linked list(C)</li>
   <li>Heap Sort(C)</li>
-  <li>Cocktail Sort</li>
+  <li>Cocktail Sort(C)</li>
   <li>Singly Linked list(C)</li>
 
