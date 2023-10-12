@@ -10,7 +10,7 @@ int getMax(int array[], int n) {
 }
 void countingSort(int array[], int size, int place) {
   const int max = 10;
-  int output[size];
+  int* output = new int[size];
   int count[max];
 
   for (int i = 0; i < max; ++i)
@@ -29,6 +29,7 @@ void countingSort(int array[], int size, int place) {
 
   for (int i = 0; i < size; i++)
     array[i] = output[i];
+    delete[] output;
 }
 
 void radixsort(int array[], int size) {
