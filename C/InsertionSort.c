@@ -22,7 +22,7 @@ int main() {
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    int arr[n];
+    int *arr = (int *)malloc(n * sizeof(int));
 
     printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++) {
@@ -41,5 +41,6 @@ int main() {
         printf("%d ", arr[i]);
     }
 
+    free(arr);
     return 0;
 }
