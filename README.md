@@ -10,7 +10,8 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
   <li>Simple Queue (C)</li>
   <li>Singly Linked List(C)</li>
   <li>Circular Linked List(C)</li>
-  <li>Array(C)</li>
+  <li>Array (C)</li>
+  <li>Binary Tree (C)</li>
 
 <h2>Algorithms that have been covered:</h2>
   <li>Insetion sort (C)</li>
