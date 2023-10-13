@@ -84,7 +84,5 @@ int main() {
 
     // Free dynamically allocated memory
     free(arr);
-
-    free(arr);
     return 0;
 }
