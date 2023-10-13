@@ -27,5 +27,6 @@ Take a look at CONTRIBUTING.md for guide to making contributions <br>
   <li>Cocktail Sort(C)</li>
   <li>Linear Search(C++)</li>
   <li>Binary Search(C++)</li>
+  <li>Knapsack Algorithm (C++)</li>
 
 
