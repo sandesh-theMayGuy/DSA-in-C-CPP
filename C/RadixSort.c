@@ -14,7 +14,7 @@ int getMax(int arr[], int n) {
 
 // A function to do counting sort of arr[] according to the digit represented by exp.
 void countSort(int arr[], int n, int exp) {
-    int output[n]; // Output array
+    int *output = (int *)malloc(n * sizeof(int)); // Output array
     int count[10] = {0};
     // Count occurrences of each digit in count[]
     for (int i = 0; i < n; i++) {
@@ -35,6 +35,7 @@ void countSort(int arr[], int n, int exp) {
     for (int i = 0; i < n; i++) {
         arr[i] = output[i];
     }
+    free(output);
 }
 
 // The main function to implement Radix Sort
@@ -62,8 +63,8 @@ int main() {
     int n;
     printf("Enter the number of elements: ");
     scanf("%d", &n);
-
-    int *arr = (int *)malloc(n * sizeof(int)); // Dynamically allocate memory
+   
+   int *arr = (int *)malloc(n * sizeof(int)); // Dynamically allocate memory
 
     if (arr == NULL) {
         printf("Memory allocation failed.\n");
@@ -83,6 +84,5 @@ int main() {
 
     // Free dynamically allocated memory
     free(arr);
-
     return 0;
 }
